@@ -1,0 +1,27 @@
+{
+  "name": "babel-plugin-accuracy",
+  "version": "1.0.0",
+  "description": "babel插件解决js计算精度丢失问题",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+		"dist/*",
+		"src/*"
+	],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.8",
+    "@rollup/plugin-babel": "^6.0.4",
+    "rollup": "^4.9.4"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "decimal.js": "^10.4.3"
+  }
+}
